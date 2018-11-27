@@ -7,4 +7,19 @@
 //
 
 #include "ThingsList.hpp"
+#include <iostream>
+#include "FavoriteCar.hpp"
 
+ThingList::ThingList() {
+    
+}
+int ThingList::addThing() {
+    FavoriteCar newCar;
+    newCar.addCar();
+    
+    return 0;
+}
+
+void ThingList::displayList() {
+    
+}

@@ -22,7 +22,6 @@ int main() {
     do {
         cout << "This program will help you keep track of your favorite cars" << endl;
         cout << "In a moment you will asked to input your first item" << endl;
-        cout << "All we need is the year(i.e. 1999), the color(i.e. red), the make(i.e. Ford) and model(i.e. Escort)" << endl;
         
         ThingList().addThing(); //add thing to the list 
         

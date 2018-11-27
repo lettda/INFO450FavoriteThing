@@ -14,7 +14,7 @@
 class ThingList
 {
 protected:
-    ThingList [100];
+    ThingList[100];
     int listSize;
     
 public:

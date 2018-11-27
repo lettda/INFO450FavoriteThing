@@ -17,7 +17,6 @@ using namespace std;
 
 class FavoriteCar {
 protected:
-    double item_id;
     int year;
     string color;
     string make;
@@ -29,6 +28,7 @@ public:
     string getModel();
     int getYear();
     string getColor();
+    int addCar();
 };
 
 
