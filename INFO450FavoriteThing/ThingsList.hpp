@@ -10,17 +10,19 @@
 #define ThingsList_hpp
 
 #include <stdio.h>
+#include "FavoriteCar.hpp"
 
-class ThingList
+
+class ThingsList
 {
-protected:
-    ThingList[100];
-    int listSize;
+    FavoriteCar list[100];
+    int size;
     
 public:
-    ThingList();
+    ThingsList();
     void displayList();
-    int addThing();
+    int addCarToList();
+    bool duplicateCar(FavoriteCar car);
 };
 
 #endif /* ThingsList_hpp */

@@ -11,12 +11,13 @@
 
 #include <stdio.h>
 #include <string>
+#include <iostream>
+
 
 using namespace std;
 
 
 class FavoriteCar {
-protected:
     int year;
     string color;
     string make;
@@ -29,6 +30,8 @@ public:
     int getYear();
     string getColor();
     int addCar();
+    
+    friend ostream & operator << (ostream &os , const FavoriteCar &);
 };
 
 
